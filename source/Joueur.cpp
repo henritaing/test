@@ -34,13 +34,3 @@ void Joueur::bouger(int espace) {
     position = nouvelle_position;
     //perform action of new space
 }
-
-void Joueur::payer(Joueur& joueur, int montant) {
-    if (balance >= montant) {
-        balance -= montant;
-        joueur.balance += montant;
-    }
-    else {
-        cout << "Pas les fonds pour payer le montant." << endl;
-    }
-}
