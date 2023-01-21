@@ -1,4 +1,18 @@
-int main
-{
-  return 0;
+#include <iostream>
+
+int main() {
+    std::cout << "Bienvenue.\n";
+    // Initialisation du jeu
+    Jeu jeu;
+    jeu.setup();
+
+    // Boucle principale de jeu
+    while (!jeu.estFini()) {
+        jeu.jouerTour();
+    }
+
+    // Affiche l'état final du jeu
+    jeu.afficherResultats();
+
+    return 0;
 }
