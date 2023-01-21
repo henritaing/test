@@ -1,4 +1,5 @@
 #include <iostream>
+#include ../header/Jeu.h
 
 int main() {
     std::cout << "Bienvenue.\n";
