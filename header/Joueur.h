@@ -1,4 +1,5 @@
 #include "Case.h"
+#include <string>
 
 class Joueur {
 private:
@@ -6,7 +7,7 @@ private:
     int balance;
     Case* position;
 public:
-    Joueur();
+    Joueur(string nom);
     string getNom();
     int getBalance();
     Case* getPosition();

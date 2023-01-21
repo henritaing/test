@@ -1,4 +1,5 @@
 #include "Case.h"
+#include "Joueur.h"
 
 class Terrain : public Case {
 private:

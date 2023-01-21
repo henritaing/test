@@ -1,3 +1,6 @@
+#include "../header/Case.h"
+#include "../header/Joueur.h"
+
 // Constructeur
 Case::Case(string nom) {
     this->nom = nom;

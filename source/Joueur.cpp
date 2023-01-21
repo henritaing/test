@@ -1,4 +1,7 @@
-Joueur::Joueur() {
+#include <string>
+#include "../header/Joueur.h"
+
+Joueur::Joueur(string nom) {
     this->nom = nom;
     this->balance = 1500;
     this->position = 0;
@@ -30,7 +33,7 @@ void Joueur::setPosition(Case* position) {
 
 void Joueur::bouger(int espace) {
     //Move the player the given number of spaces and perform the action of the new space
-    int nouvelle_position = (position + espace) % 40;
-    position = nouvelle_position;
+    int nouvelle_position = (this->position + espace) % 40;
+    setPosition(liste_cases[nouvelle_position]);
     //perform action of new space
 }

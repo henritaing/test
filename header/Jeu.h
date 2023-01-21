@@ -1,4 +1,5 @@
 #include "Plateau.h"
+#include "Joueur.h"
 
 class Jeu {
     private:

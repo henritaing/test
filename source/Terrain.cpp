@@ -1,3 +1,6 @@
+#include "../header/Terrain.h"
+#include "../header/Joueur.h"
+
 Terrain::Terrain(string nom, int prixAchat, int[] loyers, int niveau) : Case(nom) {
     this->prixAchat = prixAchat;
     this->loyers = loyers;
