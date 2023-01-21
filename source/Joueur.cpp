@@ -38,7 +38,7 @@ void Joueur::bouger(int espace) {
 void Joueur::payer(Joueur& joueur, int montant) {
     if (balance >= montant) {
         balance -= montant;
-        Joueur.balance += montant;
+        joueur.balance += montant;
     }
     else {
         cout << "Pas les fonds pour payer le montant." << endl;

@@ -1,4 +1,4 @@
-#include "Case.h"s
+#include "Case.h"
 
 class Joueur {
 private:
@@ -6,7 +6,7 @@ private:
     int balance;
     Case* position;
 public:
-    Joueur(string name);
+    Joueur(string nom);
     string getNom();
     int getBalance();
     Case* getPosition();
@@ -17,12 +17,12 @@ public:
     void payer(Joueur& joueur, int montant);
     void crediter(int montant) {
         if (montant > 0)
-            this->solde += montant;
+            this->balance += montant;
     }
     void debiter(int montant) {
-        if (this->solde >= montant)
-            this->solde -= montant;
+        if (this->balance >= montant)
+            this->balance -= montant;
         else
-            cout << "Solde insuffisant" << endl;
+            cout << "Insufficient balance" << endl;
     }
 };
