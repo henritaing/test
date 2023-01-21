@@ -1,4 +1,5 @@
 #include "../header/Jeu.h"
+#include "../header/Plateau.h"
 
 Jeu::Jeu(){
     tourActuel = 0;
@@ -26,13 +27,13 @@ void Jeu::jouerTour(){
     joueurActuel = (joueurActuel + 1) % 4;
 }
 
-bool Game::estFini(){
+bool Jeu::estFini(){
     //Check if a player has run out of properties
     //Check if a player has reached a certain amount of money
     return false;
 }
 
-void Game::afficherResultats(){
+void Jeu::afficherResultats(){
     //Print winner
     //Print final state of the game
 }

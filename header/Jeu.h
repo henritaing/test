@@ -1,8 +1,8 @@
-#include Plateau.h
+#include "Plateau.h"
 
 class Jeu {
     private:
-        Player players[4] = {Player("Joueur 1"), Player("Joueur 2"), Player("Joueur 3"), Player("Joueur 4")};
+        Joueur joueurs[4] = {Joueur("Joueur 1"), Joueur("Joueur 2"), Joueur("Joueur 3"), Joueur("Joueur 4")};
         Plateau plateau; 
         int joueurActuel; 
         int tourActuel; 

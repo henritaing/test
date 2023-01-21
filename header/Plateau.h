@@ -1,4 +1,4 @@
-class Board {
+class Plateau {
     private:
         Case* cases[40];
     public:
