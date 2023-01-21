@@ -3,6 +3,11 @@
 using namespace std;
 #include "../header/Plateau.h"
 #include "../header/Case.h"
+#include "../header/Terrain.h"
+#include "../header/Gare.h"
+#include "../header/Prison.h"
+#include "../header/Communaute.h"
+#include "../header/Chance.h"
 
 Plateau::Plateau()
 {
