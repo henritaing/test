@@ -1,3 +1,5 @@
+#include Plateau.h
+
 class Jeu {
     private:
         Player players[4] = {Player("Joueur 1"), Player("Joueur 2"), Player("Joueur 3"), Player("Joueur 4")};
