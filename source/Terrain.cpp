@@ -47,4 +47,7 @@ void Terrain::Action(Joueur& joueur) {
     else {
         int solde = joueur.getSolde();
         if (solde < this->prixAchat) {
-            cout << "Vous n'avez pas assez d'argent pour acheter cette propriét
+            cout << "Vous n'avez pas assez d'argent pour acheter cette propriété"
+        }
+    }
+}
