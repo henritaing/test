@@ -1,3 +1,5 @@
+#include "Case.h"s
+
 class Joueur {
 private:
     string nom;
@@ -13,4 +15,14 @@ public:
     void setPosition(Case* position);
     void bouger(int espace);
     void payer(Joueur& joueur, int montant);
+    void crediter(int montant) {
+        if (montant > 0)
+            this->solde += montant;
+    }
+    void debiter(int montant) {
+        if (this->solde >= montant)
+            this->solde -= montant;
+        else
+            cout << "Solde insuffisant" << endl;
+    }
 };

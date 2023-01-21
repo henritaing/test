@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 #include "../header/Plateau.h"
+#include "../header/Case.h"
 
 Plateau::Plateau()
 {
