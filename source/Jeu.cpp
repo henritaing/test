@@ -1,4 +1,3 @@
-
 Jeu::Jeu(){
     tourActuel = 0;
     gameOver = false;
@@ -9,8 +8,7 @@ Jeu::Jeu(){
 Jeu::~Jeu(){}
 
 void Jeu::setup(){
-    //Initialize board
-    //Initialize rules
+    plateau = Plateau();
 }
 
 void Jeu::jouerTour(){
