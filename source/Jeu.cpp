@@ -1,3 +1,5 @@
+#include ../header/Jeu.h
+
 Jeu::Jeu(){
     tourActuel = 0;
     gameOver = false;
