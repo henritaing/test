@@ -1,4 +1,4 @@
-Joueur::Joueur(string nom) {
+Joueur::Joueur() {
     this->nom = nom;
     this->balance = 1500;
     this->position = 0;

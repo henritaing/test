@@ -6,7 +6,7 @@ private:
     int balance;
     Case* position;
 public:
-    Joueur(string nom);
+    Joueur();
     string getNom();
     int getBalance();
     Case* getPosition();
