@@ -1,3 +1,5 @@
+#include "Case.h"
+
 class Plateau {
     private:
         Case* cases[40];
